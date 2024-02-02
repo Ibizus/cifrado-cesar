@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado y Descifrado</title>
+    <script src="cifrado.js"></script>
+</head>
+<body>
+
+    <label for="mensaje">Texto Original:</label>
+    <input type="text" id="mensaje" />
+
+    <p>
+        <label for="desplazamiento">Desplazamiento:</label>
+        <input type="number" id="desplazamiento" size="4" />
+    </p>
+
+    <p>
+        <button type="button" id="cifrar">Cifrar</button>
+        <button type="button" id="descifrar">Descifrar</button>
+    </p>
+
+    <p>
+        <label for="mensaje2">Texto Cifrado/Descifrado:</label>
+        <input type="text" id="mensaje2" />
+    </p>
+
+    <script>
+        window.addEventListener("load", inicio, true);
+    </script>
+
+</body>
+</html>
